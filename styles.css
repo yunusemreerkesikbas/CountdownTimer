@@ -11,7 +11,6 @@ body{
     align-items: center;
     /* justify-content: center; */
     min-height: 100vh;
-    min-height: 100vh;
     font-family: "Poppins",sans-serif;
     margin: 0;
 }
@@ -22,12 +21,14 @@ h1{
 }
 .countdown-container{
     display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .big-text{
     font-weight: bold;
     font-size: 6rem;
     line-height: 1;
-    margin: 0 2rem;
+    margin: 1rem 2rem;
 }
 .countdown-el{
     text-align: center;
