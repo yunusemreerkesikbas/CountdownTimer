@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./snow.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+}
